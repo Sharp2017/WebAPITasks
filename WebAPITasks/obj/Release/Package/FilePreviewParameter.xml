@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="WebAPI" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\HRTemp\\X1\\AA全国各地\\河南大象新闻岛\\WebAPITasks\\WebAPITasks\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\HRTemp\\X1\\AA全国各地\\河南大象新闻岛\\WebAPITasks\\WebAPITasks\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=.;Initial Catalog=XStudio;User ID=infos1;Password=20010102" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\HRTemp\\X1\\AA全国各地\\河南大象新闻岛\\WebAPITasks\\WebAPITasks\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
